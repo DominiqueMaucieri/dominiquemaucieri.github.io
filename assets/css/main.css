@@ -1931,8 +1931,8 @@ input, select, textarea {
 			transition: top .15s ease-in-out;
 			position: relative;
 			display: inline-block;
-			margin: 0 0.25em 0 0.25em;
-			top: 0;
+			margin: 0.25em 0.25em 0.25em 0.25em;
+			top: 6px;
 			padding-left: 0;
 		}
 
@@ -1961,29 +1961,34 @@ input, select, textarea {
 				top: -5px;
 			}
 
-				ul.contact li:hover a.fa-facebook {
-					background-color: #3C5A98;
-				}
-
 				ul.contact li:hover a.fa-twitter {
 					background-color: #2DAAE4;
 				}
 
-				ul.contact li:hover a.fa-dribbble {
-					background-color: #C4376B;
-				}
-
-				ul.contact li:hover a.fa-linkedin {
-					background-color: #006599;
-				}
-
 				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
+					background-color: #bc2a8d;
 				}
 
-				ul.contact li:hover a.fa-google-plus {
-					background-color: #DA2713;
+				ul.contact li:hover a.fa-github {
+					background-color: #000000;
 				}
+
+				ul.contact li:hover a.fa-linkedin-in {
+					background-color: #0072B1;
+				}
+
+				ul.contact li:hover a.fa-orcid {
+					background-color: #A9E842;
+				}
+
+				ul.contact li:hover a.fa-researchgate {
+					background-color: #6BE8C4;
+				}
+
+				ul.contact li:hover a.fa-google {
+					background-color: #4285F4;
+				}
+
 
 			ul.contact li:active {
 				top: 0;
@@ -2534,6 +2539,24 @@ input, select, textarea {
 				#banner .content .button:active {
 					color: #fff;
 					border-color: #616763;
+				}
+
+/* Banner 2 */
+
+				#bannerbrady {
+  				width: 100%;
+  				background-image: url("../../images/Bradys.jpg");
+  				height: 205px;
+  				background-color: purple;
+  				background-position: center;
+					padding: 11em 0;
+				}
+
+				#bannerwhite {
+  				width: 100%;
+  				background-color: #FFFFFF;
+  				height: 100px;
+  				background-position: center;
 				}
 
 /* Main */
