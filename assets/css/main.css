@@ -1805,7 +1805,7 @@ input, select, textarea {
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
 		font-size: 1.25em;
-		padding: 0.85em 1.85em;
+		padding: 0;
 		text-align: center;
 	}
 
