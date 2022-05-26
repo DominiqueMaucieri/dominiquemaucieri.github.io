@@ -2402,17 +2402,17 @@ input, select, textarea {
 			}
 
 			#nav li:hover a, #nav li:hover span {
-				background: #C1CAC5;
+				background: #556F7B;
 				color: #fff;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #C1CAC5;
+				background: #556F7B;
 				color: #fff;
 			}
 
 			#nav li.current a {
-				background: #b1ddab;
+				background: #7E8D77;
 				color: #fff;
 			}
 
