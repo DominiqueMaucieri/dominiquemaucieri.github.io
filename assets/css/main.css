@@ -2547,7 +2547,6 @@ input, select, textarea {
   				width: 100%;
   				background-image: url("../../images/Bradys.jpg");
   				height: 205px;
-  				background-color: purple;
   				background-position: center;
 					padding: 11em 0;
 				}
@@ -3129,7 +3128,7 @@ input, select, textarea {
 
 	}
 
-
+/* Hanging indent */
 
 	.apa-reference {
 	    padding-left: 36px
