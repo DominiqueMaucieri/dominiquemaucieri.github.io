@@ -3131,3 +3131,17 @@ input, select, textarea {
 	    padding-left: 36px
 	    text-indent: -36px
 	}
+
+
+/* columns */
+.column {
+	float: left;
+  }
+  
+  .left {
+	width: 95%;
+  }
+  
+  .right {
+	width: 5%;
+  }
