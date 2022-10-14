@@ -11,6 +11,24 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			.column {
+			  float: left;
+			  width: 33.33%;
+			  padding: 5px;
+			}
+			
+			/* Clearfix (clear floats) */
+			.row::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+			</style>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -104,6 +122,17 @@
 																my favorite animals to study and to teach people about.
 															</p>
 														</section>
+															<div class="row">
+																<div class="column">
+																  <a href="phd_research.html"><img src="images/interests/Temperate_Kelp_Forests.png" alt="Kelp Forests" style="width:100%"></a>
+																</div>
+																<div class="column">
+																	<a href="masters_research.html"><img src="images/interests/Tropical_Coral_Reefs.png" alt="Coral Reefs" style="width:100%"></a>
+																</div>
+																<div class="column">
+																	<a href="https://ecostatsuvic.weebly.com/"><img src="images/interests/Coding.png" alt="Coding" style="width:100%"></a>
+																</div>
+															  </div>
 														<div class="col-12">
 															<ul class="actions">
 																<li><a href="publications.html" class="button large">My Publications</a></li>
